@@ -42,7 +42,7 @@ if st.session_state.step == 1:
         st.markdown("## Passo 1/4 - Escolha seu Nicho")
         niche = st.selectbox(
             "Selecione seu nicho principal:",
-            ["Finanças Pessoais", "Fitness", "Beleza", "Tecnologia", "Games", "Empreendedorismo"],
+            ["Finanças Pessoais", "Fitness", "Beleza", "Religioso", "Tecnologia", "Games", "Empreendedorismo"],
             index=0
         )
         if st.form_submit_button("Próximo →"):
